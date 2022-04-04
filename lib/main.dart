@@ -7,9 +7,8 @@ import 'package:supabase_auth/screens/sign_up_screen.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Supabase.initialize(
-      url: 'https://pfadasbrbkwhqcecijnp.supabase.co',
-      anonKey:
-          'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBmYWRhc2JyYmt3aHFjZWNpam5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDUzODMxMTYsImV4cCI6MTk2MDk1OTExNn0.LUQhDSpu3PzeahG7rCjxKXVffo0FUYgxQ5jq47vMbc0',
+      url: '',
+      anonKey: '',
       authCallbackUrlHostname: 'login-callback', // optional
       debug: true // optional
       );
