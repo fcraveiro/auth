@@ -11,7 +11,6 @@ Future<void> main() async {
       anonKey: '',
       authCallbackUrlHostname: 'login-callback', // optional
       debug: true // optional
-      // Verificar
       );
   runApp(const MyApp());
 }
